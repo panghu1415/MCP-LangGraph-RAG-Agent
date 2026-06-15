@@ -1,0 +1,47 @@
+{
+  "weather": {
+    "command": "python",
+    "args": ["mcp_servers/weather_server.py"],
+    "transport": "stdio"
+  },
+  "route": {
+    "command": "python",
+    "args": ["mcp_servers/route_server.py"],
+    "transport": "stdio"
+  },
+  "rag": {
+    "command": "python",
+    "args": ["mcp_servers/rag_server.py"],
+    "transport": "stdio"
+  },
+  "planner": {
+    "command": "python",
+    "args": ["mcp_servers/planner_server.py"],
+    "transport": "stdio"
+  },
+  "budget": {
+    "command": "python",
+    "args": ["mcp_servers/budget_server.py"],
+    "transport": "stdio"
+  },
+  "poi": {
+    "command": "python",
+    "args": ["mcp_servers/poi_server.py"],
+    "transport": "stdio"
+  },
+  "transport": {
+    "command": "python",
+    "args": ["mcp_servers/transport_server.py"],
+    "transport": "stdio"
+  },
+  "hotel": {
+    "command": "python",
+    "args": ["mcp_servers/hotel_server.py"],
+    "transport": "stdio"
+  },
+  "writer": {
+    "command": "python",
+    "args": ["mcp_servers/write_server.py"],
+    "transport": "stdio"
+  }
+}

@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+milvus_data/
+output/
+data/*.db
+data/*.db-*
